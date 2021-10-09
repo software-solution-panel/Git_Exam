@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.exam.git_exam.controller.ItemView">
+   <Label layoutX="258.0" layoutY="48.0" text="Item Section" />
+   <TextField fx:id="txtItemCode" layoutX="195.0" layoutY="107.0" promptText="Item Code" />
+   <TextField fx:id="txtItemName" layoutX="185.0" layoutY="144.0" promptText="Item Name" />
+   <TextField fx:id="txtItemqty" layoutX="195.0" layoutY="187.0" promptText="Item qty" />
+   <TextField fx:id="txtItemUnitPrice" layoutX="195.0" layoutY="237.0" promptText="Item unit Price" />
+   <Button fx:id="btnAddItem" layoutX="325.0" layoutY="281.0" mnemonicParsing="false" onAction="#AddItem" text="Add Item" />
+</AnchorPane>
